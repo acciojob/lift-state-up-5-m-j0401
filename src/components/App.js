@@ -11,7 +11,7 @@ const App = () => {
         <h1>Parent Component</h1>
       {  !isLoggedIn   &&  <Form setLog={setIsLoggedIn}/>   }
       {
-        isLoggedIn && <h2>You are logged in!</h2>
+        isLoggedIn && <p>You are logged in!</p>
       }
     </div>
   )
